@@ -1,0 +1,24 @@
+.newsItem {
+	max-width: 240px;
+	p {
+		color: var(--primary);
+		font-size: 18px;
+		line-height: 21px;
+		font-weight: 300;
+		text-align: center;
+		cursor: pointer;
+		&:hover {
+			transition: var(--transition);
+			color: goldenrod;
+		}
+	}
+	span {
+		display: block;
+		color: var(--primary);
+		font-size: 12px;
+		font-weight: 600;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+}

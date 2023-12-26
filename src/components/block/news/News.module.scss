@@ -1,0 +1,16 @@
+.news {
+	margin-bottom: 10px;
+	.row {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 20px;
+		padding: 20px 40px;
+		border-radius: 10px;
+		background-color: var(--gray-light);
+		margin-bottom: 30px;
+	}
+	.buttonWrapper {
+		display: flex;
+		justify-content: center;
+	}
+}
