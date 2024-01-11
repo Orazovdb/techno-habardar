@@ -9,7 +9,7 @@ interface IButton extends InputHTMLAttributes<HTMLButtonElement> {
 
 export default function Button({ isLoading, children }: IButton) {
 	return (
-		<button className={styles.button}>
+		<button  className={styles.button}>
 			{isLoading ? <Loader /> : children}
 		</button>
 	)

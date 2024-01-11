@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { IBM_Plex_Sans, Inter, Oswald } from 'next/font/google'
 
 import Layout from '@/components/layout/Layout'
-import './globals.scss'
+import '../globals.scss'
 
 export const ibm = IBM_Plex_Sans({
 	weight: ['100', '200', '300', '400', '500', '600', '700'],
